@@ -6,6 +6,6 @@ header {
 .container-hero {
     background-color: rgb(93, 177, 152);
     color: white;
-    text-align: center;
+    /* text-align: center; */
 }
 
