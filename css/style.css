@@ -1,3 +1,11 @@
 header {
     background-color: rgb(0, 73, 95);
+    color: white;
 }
+
+.container-hero {
+    background-color: rgb(93, 177, 152);
+    color: white;
+    text-align: center;
+}
+
