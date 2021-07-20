@@ -1,15 +1,29 @@
 header {
-    background-color: rgb(0, 73, 95);
+    background-color: rgba(44,62,80,255);
     color: white;
+    padding: 25px;
+    text-transform: uppercase;
+}
+
+.one-piece {
+    width: 250px;
+    height: auto;
 }
 
 
 .container-hero {
-    background-color: rgb(93, 177, 152);
+    background-color: rgba(26,188,156,255);
     color: white;
     padding: 50px;
+    text-transform: uppercase;
 }
 
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 15px;
+}
 
 .portfolio,
 .portfolio-due {
@@ -18,22 +32,21 @@ header {
 
 
 .portfolio {
-    padding: 50px;
+    padding-top: 40px;
+    margin-bottom: 65px;
 }
-
-
 .imagine {
-    height: 280px;
     background-color: rgb(136, 141, 141);
     border-radius: 15px;
     font-size: 50px;
     color: rgb(255, 255, 255);
-    margin: 15px;
+    margin-top: 10px;
+    padding: 90px;
 }
 
 
 .about-me {
-    background-color: rgb(93, 177, 152);
+    background-color:rgba(26,188,156,255);
     color: white;
     padding: 50px;
 }
@@ -44,20 +57,92 @@ header {
     padding: 50px;
 }
 
-/* .line {
-    width: 50px;
+.line {
+    width: 100px;
     height: 3px;
-    color: tomato;
-} */
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    padding-right: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+} 
+
+.line-due {
+     background-color: rgb(0, 0, 0);
+}
+
+
+.row-uno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.row-due {
+    padding-top: 10px;
+}
+
+.interno-text {
+    padding: 50px;
+}
 
 .footer-up {
-    background-color: rgb(0, 110, 194);
+    background-color: rgba(58,84,109,255);
     color: white;
     padding: 50px;
 }
 
 .footer-down {
-    background-color: rgb(0, 73, 95);
+    background-color: rgba(44,62,80,255);
     color: white;
     padding: 20px;
+}
+
+.button-download {
+    background-color: rgba(26,188,156,255);
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    padding: 6px;
+    width: 10%;
+}
+
+.send {
+    border: none;
+    color: white;
+    background-color: rgba(26,188,156,255);
+    border-radius: 5px;
+    padding: 5px;
+    width: 5%;
+}
+
+.send-button {
+    padding-top: 140px;
+}
+
+ul {
+    list-style-type: none; 
+    padding-left: 0;      
+    margin-left: 0;        
+}
+
+.cerchio {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 10px;
+}
+
+.icon {
+    padding-top: 10px;
+    margin-left: 15px;
+}
+
+.start-bootstrap {
+    color: rgba(26,188,156,255) ;
 }

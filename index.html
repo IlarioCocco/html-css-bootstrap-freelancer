@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- simboli font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- simboli font-awesome -->
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -19,14 +24,14 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-6 text-center">
+                    <div class="col-6 text-center fs-5">
                         start bootsrap
                     </div>
-                    <div class="col-6 text-center">
+                    <div class="col-6 text-center fs-6">
                         <ul>
                             <li>portfolio</li>
-                            <li>portfolio</li>
-                            <li>portfolio</li>
+                            <li>about</li>
+                            <li>contact</li>
                         </ul>
                     </div>
                 </div>
@@ -36,16 +41,24 @@
 
     <!-- main -->
     <main>
-
+        
         <!-- section hero -->
         <section class="container-hero">
             <div class= "container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <img src="img/one-piece-logo-face.png" alt="">
-                        <h1>start bootsrap</h1>
-                        <span>linestar</span>
-                        <p>graphic artist-webdesigner-illustrator</p>
+                        <img class="one-piece" src="img/one-piece-logo-face.png" alt="">
+                        <h1 class="fs-1">start bootstrap</h1>
+                        <div class="row-uno">
+                            <span class="line"></span>
+                            <span class="fs-5 star"><i class="fas fa-star"></i></span>
+                            <span class="line"></span>
+                        </div>
+                        <div class="row-due">
+                            <span class="graphic fw-normal">
+                                <p>graphic artist-webdesigner-illustrator</p>
+                            </span>
+                        </div> 
                     </div>
                 </div>
             </div>
@@ -56,8 +69,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <h1 class="portfolio">portfolio</h1>
-                        <p class="portfolio-due">linestar</p>
+                        <h1 class="portfolio-titolo text-uppercase fw-bold fs-2">portfolio</h1>
+                        <div class="row-uno">
+                            <span class="line line-due"></span>
+                            <span class="fs-5 star dark"><i class="fas fa-star"></i></span>
+                            <span class="line line-due"></span>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
@@ -100,25 +117,32 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <h1 class="about">about</h1>
-                        <p class="about-due">linestar</p>
+                        <h2 class="about text-uppercase fw-bold">about</h2>
+                        <div class="row-uno">
+                            <span class="line"></span>
+                            <span class="fs-5 star"><i class="fas fa-star"></i></span>
+                            <span class="line"></span>
+                        </div>
+                      
                         <div class="row">
-                            <div class="col-6 text-center">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, totam aperiam laboriosam nostrum, eligendi a
-                                    deleniti voluptatem repellat, animi beatae asperiores sapiente soluta voluptatum assumenda qui neque dolorum
-                                    ratione explicabo.
+                            <div class="col-6 text-center interno-text">
+                                <p class=" text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, totam aperiam laboriosam nostrum, eligendi a
+                                   deleniti voluptatem repellat, animi beatae asperiores sapiente soluta voluptatum assumenda qui neque dolorum
+                                   ratione explicabo enim quia quidem voluptas
+                                   magni!.
                                 </p>
                             </div>
-                            <div class="col-6 text-center">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime excepturi dolor repudiandae, officiis nobis iusto
-                                    repellat amet consequuntur culpa illum soluta corrupti tenetur exercitationem qui, enim quia quidem voluptas
-                                    magni!
+                            <div class="col-6 text-center interno-text">
+                                <p class=" text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime excepturi dolor repudiandae, officiis nobis iusto
+                                   repellat amet consequuntur culpa illum soluta corrupti tenetur exercitationem qui, enim quia quidem voluptas
+                                   magni enim quia quidem voluptas
+                                   magni!!
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 text-center">
-                        <button class="button-download">download</button>
+                        <button class="button-download"><i class="fas fa-download"></i>&nbsp; Download</button>
                     </div>
                 </div>
             </div>
@@ -129,23 +153,26 @@
             <div class="container"> 
                 <div class="row">
                     <div class="col-12">
-                        <h1 class="contact-me text-center">contact me</h1>
-                        <p class="contact-me-due text-center">linestar</p>
+                        <h2 class="about text-uppercase fw-bold text-center">contact me</h2>
+                        <div class="row-uno">
+                            <span class="line line-due"></span>
+                            <span class="fs-5 star dark"><i class="fas fa-star"></i></span>
+                            <span class="line line-due"></span>
+                        </div>
                         <div class="row">
-                            <div class="col-12 text-left">
+                            <div class="col-12 text-left fw-bolder">
                                 <ul>
                                     <li>Name</li>
                                     <hr>
-                                    <span class="line"></span>
                                     <li>Email Adress</li>
                                     <hr>
                                     <li>Phone Number</li>
                                     <hr>
                                     <li>Message</li>
                                 </ul>
-                                <div>
+                                <div class="send-button">
                                     <hr>
-                                    <button>Send</button>
+                                    <button class="send">Send</button>
                                 </div>
                             </div>
                         </div>
@@ -161,13 +188,24 @@
             <div class="container">
                 <div class="row">
                     <div class="col-4 text-center">
-                        <h3>location</h3>
+                        <h3 class="text-uppercase">location</h3>
+                        <h5>2215 John Daniel Drive Clark, MO</h5>
+                        <h5>54243</h5>
                     </div>
                     <div class="col-4 text-center">
-                        <h3>around the web</h3>
+                        <h3 class="text-uppercase">around the web</h3>
+                        <div class="icon">
+                            <span class="cerchio"><i class="fab fa-facebook-f"></i></span>
+                            <span class="cerchio"><i class="fab fa-instagram"></i></i></span>
+                            <span class="cerchio"><i class="fab fa-twitter"></i></span>
+                            <span class="cerchio"><i class="fab fa-linkedin-in"></i></span>
+                        </div>
                     </div>
                     <div class="col-4 text-center">
-                        <h3>about the freelancer</h3>
+                        <h3 class="text-uppercase">about the freelancer</h3>
+                        <h5>Freelance is a free to use, open source</h5>
+                        <h5>Bootsptrap theme created by<span class="start-bootstrap"> Start</span></h5>
+                        <h5><span class="start-bootstrap">Bootstrap</span>.</h5>
                     </div>
                 </div>
             </div>
@@ -176,7 +214,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <h3>Copyright Your Website 2021</h3>
+                        <p>Copyright Your Website 2021</p>
                     </div>
                 </div>
             </div>
