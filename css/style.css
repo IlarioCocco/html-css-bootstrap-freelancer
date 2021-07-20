@@ -12,3 +12,13 @@ header {
 .portfolio-due {
     color: rgb(0, 0, 0);
 }
+
+.imagine {
+    height: 280px;
+    width: 400px;
+    background-color: rgb(136, 141, 141);
+    border-radius: 15px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
