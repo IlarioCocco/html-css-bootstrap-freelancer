@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat bold', sans-serif;
 } 
 
 header {
@@ -82,14 +82,13 @@ ul li {
     justify-content: center;
     opacity: 0;
     width: 100%;
+    transition:opacity 0,5s;
 }
 
 .imagine-bkg img {
     width: 100%;
     display: block;
 }
-
-
 /* overley */
 
 
