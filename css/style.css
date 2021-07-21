@@ -3,6 +3,8 @@ body {
 } 
 
 header {
+    z-index: 5;
+    position: relative;
     background-color: rgba(44,62,80,255);
     color: white;
     padding-top: 25px;
@@ -54,11 +56,14 @@ ul li {
     margin: 10px 0;
 }
 
+
+
 /* overley */
 .overley:hover {
     background-color: rgba(26,188,156,255);
     color: white;
     opacity: 1;
+    border-radius: 15px;
 }
 
 .imagine-bkg {
@@ -76,7 +81,18 @@ ul li {
     align-items: center;
     justify-content: center;
     opacity: 0;
+    width: 100%;
 }
+
+.imagine-bkg img {
+    width: 100%;
+    display: block;
+}
+
+
+/* overley */
+
+
 
 
 .about-me {
