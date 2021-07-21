@@ -44,7 +44,6 @@ ul li {
     padding: 90px;
 }
 
-
 .about-me {
     background-color:rgba(26,188,156,255);
     color: white;
@@ -82,6 +81,11 @@ ul li {
 .row-due {
     padding-top: 10px;
 }
+
+.row-tre {
+    padding-bottom: 30px;
+}
+
 
 .interno-text {
     padding: 50px;
