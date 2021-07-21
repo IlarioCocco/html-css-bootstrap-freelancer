@@ -1,3 +1,7 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+} 
+
 header {
     background-color: rgba(44,62,80,255);
     color: white;
@@ -18,11 +22,13 @@ header {
 .container-hero {
     background-color: rgba(26,188,156,255);
     color: white;
-    padding: 100px;
+    padding: 50px;
     text-transform: uppercase;
 }
 
-
+.area-logo {
+    padding-top: 50px;
+}
 
 
 ul li {
@@ -41,14 +47,14 @@ ul li {
     padding-top: 40px;
     margin-bottom: 65px;
 }
+
 .imagine {
-    background-color: rgb(136, 141, 141);
+    max-width: 100%;
     border-radius: 15px;
-    font-size: 50px;
-    color: rgb(255, 255, 255);
     margin: 10px 0;
-    padding: 90px;
 }
+
+
 
 .about-me {
     background-color:rgba(26,188,156,255);
