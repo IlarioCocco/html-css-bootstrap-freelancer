@@ -54,6 +54,29 @@ ul li {
     margin: 10px 0;
 }
 
+/* overley */
+.overley:hover {
+    background-color: rgba(26,188,156,255);
+    color: white;
+    opacity: 1;
+}
+
+.imagine-bkg {
+    position: relative;
+}
+
+.overley {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
 
 
 .about-me {
