@@ -22,7 +22,7 @@ header {
 ul li {
     list-style-type: none;
     display: inline-block;
-    padding-right: 15px;
+    margin-right: 10px;
 }
 
 .portfolio,
@@ -83,7 +83,7 @@ ul li {
 }
 
 .row-tre {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 
