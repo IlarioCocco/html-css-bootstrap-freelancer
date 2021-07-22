@@ -56,6 +56,14 @@ ul li {
     margin: 10px 0;
 }
 
+.graphic:hover {
+    font-weight: bold;
+    color: black
+}
+
+.first:hover {
+    color: rgb(214, 76, 76);
+}
 
 
 /* overley */
@@ -82,7 +90,7 @@ ul li {
     justify-content: center;
     opacity: 0;
     width: 100%;
-    transition:opacity 0,5s;
+    /* transition: opacity 1s; */
 }
 
 .imagine-bkg img {
