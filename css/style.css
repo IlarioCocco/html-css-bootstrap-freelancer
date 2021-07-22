@@ -177,6 +177,7 @@ ul li {
     border-radius: 5px;
     padding: 5px;
     width: 5%;
+    margin-top: 10px;
 }
 
 .send-button {
@@ -189,22 +190,41 @@ ul {
     margin-left: 0;        
 }
 
-.cerchio {
-    width: 35px;
-    height: 35px;
+/* .cerchio {
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     border: 1px solid white;
-    padding: 10px;
+    padding: 15px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: 10px;
-}
+} */
 
 .icon {
-    padding-top: 10px;
-    margin-left: 15px;
+    margin: 15px;
 }
 
 .start-bootstrap {
     color: rgba(26,188,156,255) ;
+}
+
+.form-control {
+    border-radius: none;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}   
+
+.form-floating {
+    margin-top: 3px;
+}
+
+.btn {
+    border-radius: 50%;
+    font-size: 20px;
+}
+     
+.size {
+    font-size: 20px;
+    padding: 3px;
 }
