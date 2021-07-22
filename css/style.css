@@ -190,16 +190,9 @@ ul {
     margin-left: 0;        
 }
 
-/* .cerchio {
-    width: 45px;
-    height: 45px;
+.cerchio {
     border-radius: 50%;
-    border: 1px solid white;
-    padding: 15px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: 10px;
-} */
+}
 
 .icon {
     margin: 15px;
