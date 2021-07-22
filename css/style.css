@@ -26,6 +26,14 @@ header {
     color: white;
 }
 
+.st-bt:hover {
+    color: hsl(0, 63%, 57%);
+    background-color: rgba(44,62,80,255);
+    border: 1px solid white;
+}
+
+
+
 .container-hero {
     background-color: rgba(26,188,156,255);
     color: white;
@@ -206,7 +214,7 @@ ul {
 }
 
 .start-bootstrap {
-    color: rgba(26,188,156,255) ;
+    color: rgba(26,188,156,255);
 }
 
 .form-control {
