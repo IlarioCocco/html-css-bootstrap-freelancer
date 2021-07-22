@@ -3,12 +3,13 @@ body {
 } 
 
 header {
+    line-height: 40px;
     z-index: 5;
     position: relative;
     background-color: rgba(44,62,80,255);
     color: white;
     padding-top: 25px;
-    height: 90px;
+   
     text-transform: uppercase;
     position: fixed;
     width: 100%;
@@ -29,7 +30,7 @@ header {
 }
 
 .area-logo {
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 
