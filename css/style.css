@@ -9,7 +9,7 @@ header {
     background-color: rgba(44,62,80,255);
     color: white;
     padding-top: 25px;
-   
+    height: 100px;
     text-transform: uppercase;
     position: fixed;
     width: 100%;
@@ -64,6 +64,7 @@ ul li {
 
 .first:hover {
     color: rgb(214, 76, 76);
+    /* font-size: 20px; */
 }
 
 
